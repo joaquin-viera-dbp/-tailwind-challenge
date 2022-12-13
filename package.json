@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-challenge",
+  "version": "1.0.0",
+  "description": "Learn Platform challenge - Joaquin Viera",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./styles.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquin-viera-dbp/tailwind-challenge.git"
+  },
+  "author": "joaquin-viera-dbp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquin-viera-dbp/tailwind-challenge/issues"
+  },
+  "homepage": "https://github.com/joaquin-viera-dbp/tailwind-challenge#readme",
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "tailwindcss": "^3.2.4"
+  }
+}

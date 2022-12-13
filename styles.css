@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .read-more {
+    @apply text-gray-500 border hover:text-white hover:bg-black rounded-lg text-sm px-2 py-1;
+  }
+}
